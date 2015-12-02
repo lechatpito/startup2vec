@@ -6,7 +6,7 @@ or yet another xxx2vec
 check it out: 
 ## http://www.3top.com/startup2vec
 
-This is a company search engine. It is built using a vector space of companies descriptions. Each company description is taken from [Crunchbase](http://www.crunchbase.com), and word embeddings from the Stanford [GloVe vectors](http://nlp.stanford.edu/projects/glove/) are aggregated to form company vectors. 
+This is a company search engine. It is built using a latent space of companies descriptions. Each company description is taken from [Crunchbase](http://www.crunchbase.com), and word embeddings from the Stanford [GloVe vectors](http://nlp.stanford.edu/projects/glove/) are aggregated to form company vectors. 
 
 A pretty straightforward implementation, here are the steps:
  1. Load the company descriptions in a pandas frame
